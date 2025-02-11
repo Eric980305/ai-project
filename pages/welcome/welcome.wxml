@@ -1,0 +1,28 @@
+<view class="container">
+  <view class="welcome-header" animation="{{animationHeader}}">
+    <image class="logo" src="/images/logo.png" mode="aspectFit"></image>
+    <text class="title">股票操盘手培训营</text>
+  </view>
+  
+  <view class="welcome-content">
+    <text class="slogan" animation="{{animationSlogan}}">专业的交易技术，成就卓越的投资未来</text>
+    <view class="features">
+      <view class="feature-item" animation="{{animationFeatures[0]}}">
+        <text class="feature-title">系统课程</text>
+        <text class="feature-desc">从基础到进阶的完整培训体系</text>
+      </view>
+      <view class="feature-item" animation="{{animationFeatures[1]}}">
+        <text class="feature-title">实战指导</text>
+        <text class="feature-desc">真实案例分析，实盘操作演示</text>
+      </view>
+      <view class="feature-item" animation="{{animationFeatures[2]}}">
+        <text class="feature-title">专家团队</text>
+        <text class="feature-desc">资深分析师一对一指导</text>
+      </view>
+    </view>
+  </view>
+
+  <view class="welcome-footer">
+    <button class="start-btn" bindtap="handleStartButtonTap" animation="{{animationButton}}">开启专业之旅</button>
+  </view>
+</view>
